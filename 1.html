@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- lang is optional-->
+    <head>
+        <title>
+            Car website
+        </title>
+        <!--we are here going put the css files list also-->
+    </head>
+    <body>
+        <main>
+            <h1>Welcome to the website h1</h1>
+            <h2>Welcome to the website h2</h2>
+            <h3>Welcome to the website h3</h3>
+            <p>list of car <em>model</em></p><!-- em make the word into italics-->
+            <ul>
+                <li>Rolls Royces</li>
+                <li>Bently</li>
+                <li>Audi</li>
+                <li>Tata Vista</li>
+            </ul>
+
+            <p>Car model <strong>colors</strong></p><!--strong makes the word into bold-->
+            <ol>
+                <li>black</li>
+                <li>white</li>
+                <li>dark blue</li>
+                <li>dark green</li>
+            </ol>
+            <h4>Welcome to the website h4</h4>
+            <h5>Welcome to the website h5</h5>
+            <h6>Welcome to the website h6</h6>
+
+
+            <a href="https://www.youtube.com/">Car collection</a>
+
+            <p>Have the lot of car pictures the may give you the references of the cars. 
+                <a href="https://www.youtube.com/">Car collection</a>
+                <!-- this make a link next to the sentence-->
+            </p>
+
+
+            <p>Have the lot of car pictures the may give you the references of the cars. 
+                <a href="#" target="_blank">Car collection</a>
+                <!-- # is like a place holder u can keep any link till u get link
+                 target="_blank"  this is like when you click the car collection it will take to new tab-->
+            </p>
+
+
+            <img src="car.jpg">
+
+        
+
+            <a href="https://www.youtube.com/"><img src="car1.jpg"></a>
+            <!--this will make image as link-->
+
+            <br><!--next line-->
+            <br>
+            <form action="/submit-car-phot">
+                <input type="text" required><!--required will till u to fill the text box when u press the submit button-->
+                <br><br>
+
+                <input type="text" placeholder="car photo URL">
+                <button type="submit">submit</button>
+                <br>
+
+                <input type="radio">classic <!-- here u need to click on circle shape only tp mark and u can select 2 also and can't uncheck it-->
+                <input type="radio">ancient
+                <br>
+
+                <label><input type="radio">classic</label><!-- with the help of lable tag when u click on text also the radio button will mark-->
+                <label><input type="radio">ancient</label>
+                <br>
+
+                <label><input type="radio" name="classic-ancient">classic</label><!--it will hover over the button means let us only to select only one button-->
+                <label><input type="radio" name="classic-ancient">ancient</label>
+                <br>
+
+                <label> <input type="checkbox">manual</label>
+                <label> <input type="checkbox">automatic</label><!--to do what is diff b/w these two-->
+                <label for="old"><input id="old" type="checkbox" name="age">automatic</label><!--to do what is diff b/w these two-->
+                <label> <input type="checkbox" checked>continental</label><!--checked will mark permenatly and you can do this in radio button also
+                and in an attribute we can add 4 elements and that is practiced as standard and need have single space betwwen them-->
+                <br>
+
+
+
+                <div class="list">
+                    <!--this will be used when we use css-->
+                </div>
+                
+            </form>            
+        </main>
+        <footer>
+            <p>
+                <small>No copyright
+                    <a href="https://freecodecamp.org">Car.com</a>
+                </small><!--this will make the content into small-->
+            </p>
+        </footer>
+    </body>
+</html>
